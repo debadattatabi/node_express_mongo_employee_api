@@ -1,0 +1,23 @@
+{
+  "name": "employee-api",
+  "version": "1.0.0",
+  "description": "API structure using node, express & mongo",
+  "main": "server.js",
+  "author": "Debadatta Mahanta",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "config": "^1.25.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.10.8",
+    "nodemon": "^1.11.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "bunyan": "^1.8.10"
+  }
+}
